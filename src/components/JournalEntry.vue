@@ -47,6 +47,12 @@ export default {
     // test: function() {
     //   return this.no1_sharePrice;
     // },
+    no1_sharePrice() {
+      return this.$store.state.param.no1_sharePrice
+    },
+    no1_shareNumber() {
+      return this.$store.state.param.no1_shareNumber
+    },
     tsNo1CrShareCapital: {
       get() {
         return (
